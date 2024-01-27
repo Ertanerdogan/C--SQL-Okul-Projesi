@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbOkulProjeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TblBolum">
+    <Key>
+      <PropertyRef Name="BolumID" />
+    </Key>
+    <Property Name="BolumID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BolumFakulte" Type="Int32" Nullable="false" />
+    <Property Name="BolumAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BolumUcret" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TblFakulte" Relationship="Self.FK_TblBolum_TblFakulte" FromRole="TblBolum" ToRole="TblFakulte" />
+    <NavigationProperty Name="TblOgr" Relationship="Self.FK_TblOgr_TblBolum" FromRole="TblBolum" ToRole="TblOgr" />
+  </EntityType>
+  <EntityType Name="TblFakulte">
+    <Key>
+      <PropertyRef Name="FakulteID" />
+    </Key>
+    <Property Name="FakulteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FakulteAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TblBolum" Relationship="Self.FK_TblBolum_TblFakulte" FromRole="TblFakulte" ToRole="TblBolum" />
+    <NavigationProperty Name="TblOgr" Relationship="Self.FK_TblOgr_TblFakulte" FromRole="TblFakulte" ToRole="TblOgr" />
+  </EntityType>
+  <EntityType Name="TblOgr">
+    <Key>
+      <PropertyRef Name="OgrID" />
+    </Key>
+    <Property Name="OgrID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OgrNumara" Type="Int32" Nullable="false" />
+    <Property Name="OgrAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OgrSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OgrFakulte" Type="Int32" Nullable="false" />
+    <Property Name="OgrBolum" Type="Int32" Nullable="false" />
+    <Property Name="OgrBurs" Type="Int32" Nullable="false" />
+    <Property Name="OgrBorc" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TblBolum" Relationship="Self.FK_TblOgr_TblBolum" FromRole="TblOgr" ToRole="TblBolum" />
+    <NavigationProperty Name="TblFakulte" Relationship="Self.FK_TblOgr_TblFakulte" FromRole="TblOgr" ToRole="TblFakulte" />
+  </EntityType>
+  <Association Name="FK_TblBolum_TblFakulte">
+    <End Role="TblFakulte" Type="Self.TblFakulte" Multiplicity="1" />
+    <End Role="TblBolum" Type="Self.TblBolum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblFakulte">
+        <PropertyRef Name="FakulteID" />
+      </Principal>
+      <Dependent Role="TblBolum">
+        <PropertyRef Name="BolumFakulte" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblOgr_TblBolum">
+    <End Role="TblBolum" Type="Self.TblBolum" Multiplicity="1" />
+    <End Role="TblOgr" Type="Self.TblOgr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBolum">
+        <PropertyRef Name="BolumID" />
+      </Principal>
+      <Dependent Role="TblOgr">
+        <PropertyRef Name="OgrBolum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblOgr_TblFakulte">
+    <End Role="TblFakulte" Type="Self.TblFakulte" Multiplicity="1" />
+    <End Role="TblOgr" Type="Self.TblOgr" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblFakulte">
+        <PropertyRef Name="FakulteID" />
+      </Principal>
+      <Dependent Role="TblOgr">
+        <PropertyRef Name="OgrFakulte" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbOkulProjeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TblBolum" EntityType="Self.TblBolum" />
+    <EntitySet Name="TblFakulte" EntityType="Self.TblFakulte" />
+    <EntitySet Name="TblOgr" EntityType="Self.TblOgr" />
+    <AssociationSet Name="FK_TblBolum_TblFakulte" Association="Self.FK_TblBolum_TblFakulte">
+      <End Role="TblFakulte" EntitySet="TblFakulte" />
+      <End Role="TblBolum" EntitySet="TblBolum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblOgr_TblBolum" Association="Self.FK_TblOgr_TblBolum">
+      <End Role="TblBolum" EntitySet="TblBolum" />
+      <End Role="TblOgr" EntitySet="TblOgr" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblOgr_TblFakulte" Association="Self.FK_TblOgr_TblFakulte">
+      <End Role="TblFakulte" EntitySet="TblFakulte" />
+      <End Role="TblOgr" EntitySet="TblOgr" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

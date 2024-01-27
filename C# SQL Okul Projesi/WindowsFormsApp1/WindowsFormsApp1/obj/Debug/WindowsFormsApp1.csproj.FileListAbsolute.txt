@@ -1,0 +1,40 @@
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmYonetim.resources
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmBorclar.resources
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmYonlendir.resources
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmBolumler.resources
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmFakulteler.resources
+C:\Users\ertan\Desktop\Yazılım\deneme\C#\Deniyorum\SQL\Okul Projesi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmLogo.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmBolumler.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmFakulteler.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmLogo.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmYonlendir.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmBorclar.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmYonetim.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ertan\Desktop\ErtanErdogan220403775.Proje\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
